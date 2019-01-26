@@ -1,0 +1,11 @@
+framework module F1Exchange {
+  umbrella header "F1Exchange.h"
+
+  export *
+  module * { export * }
+}
+
+module F1Exchange.Swift {
+    header "F1Exchange-Swift.h"
+    requires objc
+}

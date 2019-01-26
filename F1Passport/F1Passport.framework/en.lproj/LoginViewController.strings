@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "392-QE-K0E"; */
+"392-QE-K0E.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "Ebh-Pc-RRf"; */
+"Ebh-Pc-RRf.normalTitle" = "Forget Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "azR-l3-Jwc"; */
+"azR-l3-Jwc.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Phone/Email"; ObjectID = "eII-JT-WI2"; */
+"eII-JT-WI2.placeholder" = "Phone/Email";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "qk9-ef-fzf"; */
+"qk9-ef-fzf.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "手机短信登录"; ObjectID = "yvS-As-NQA"; */
+"yvS-As-NQA.normalTitle" = "SMS Login";

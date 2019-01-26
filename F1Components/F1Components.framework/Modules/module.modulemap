@@ -1,0 +1,11 @@
+framework module F1Components {
+  umbrella header "F1Components.h"
+
+  export *
+  module * { export * }
+}
+
+module F1Components.Swift {
+    header "F1Components-Swift.h"
+    requires objc
+}

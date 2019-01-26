@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "21W-Hm-zbv"; */
+"21W-Hm-zbv.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "5Hx-Nb-VrN"; */
+"5Hx-Nb-VrN.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "BDu-jC-WHN"; */
+"BDu-jC-WHN.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "邮箱注册"; ObjectID = "GOX-mY-EQl"; */
+"GOX-mY-EQl.normalTitle" = "Phone Register";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "KQP-FO-LDm"; */
+"KQP-FO-LDm.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "MUj-Bi-G1g"; */
+"MUj-Bi-G1g.placeholder" = "Verification Code";
+
+/* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "WUK-aM-EN7"; */
+"WUK-aM-EN7.placeholder" = "Email Code";
+
+/* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "pjJ-Nd-poV"; */
+"pjJ-Nd-poV.normalTitle" = "Register";
