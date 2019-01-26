@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'F1Components' do |components|
     components.platform     = :ios, "9.0"
+    components.vendored_frameworks = 'F1Components/F1Components.framework'
     components.dependency "HandyJSON", "~> 4.2.0" 
     components.dependency "RxSwift", "~> 4.0" 
     components.dependency "RxCocoa", "~> 4.0" 
