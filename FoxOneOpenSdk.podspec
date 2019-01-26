@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/fox-one/foxone-opensdk-ios.git", :tag => "#{s.version}" }
   s.swift_version = "4.2"
   s.requires_arc = true
+  
+  s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
     core.platform     = :ios, "10.0"
