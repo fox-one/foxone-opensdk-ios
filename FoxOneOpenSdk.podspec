@@ -21,11 +21,6 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'Core'
 
-  s.subspec 'Core' do |core|
-    core.platform     = :ios, "10.0"
-    core.vendored_frameworks = 'F1Components/F1Components.framework', 'F1Utility/F1Utility.framework', 'F1Passport/F1Passport.framework', 'F1Exchange/F1Exchange.framework'
-  end
-
   s.subspec 'F1Utility' do |utility|
     utility.platform     = :ios, "9.0"
     utility.vendored_frameworks = 'F1Utility/F1Utility.framework'
@@ -76,9 +71,6 @@ Pod::Spec.new do |s|
   s.subspec 'F1Exchange' do |exchange|
     exchange.platform     = :ios, "10.0"
     exchange.vendored_frameworks = 'F1Exchange/F1Exchange.framework'
-    exchange.dependency "FoxOneOpenSdk/F1Utility", 
-    exchange.dependency "FoxOneOpenSdk/F1Components", 
-    exchange.dependency "FoxOneOpenSdk/F1Passport",
     exchange.dependency "HandyJSON", "~> 4.2.0" 
     exchange.dependency "RxSwift", "~> 4.0" 
     exchange.dependency "RxCocoa", "~> 4.0" 
