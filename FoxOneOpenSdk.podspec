@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
     exchange.dependency "FoxOneOpenSdk/F1Utility" 
     exchange.dependency "FoxOneOpenSdk/F1Components" 
     exchange.dependency "HandyJSON", "~> 4.2.0" 
-    sexchange.dependency "RxSwift", "~> 4.0" 
+    exchange.dependency "RxSwift", "~> 4.0" 
     exchange.dependency "RxCocoa", "~> 4.0" 
     exchange.dependency "MBProgressHUD", "~> 1.0" 
     exchange.dependency "Moya/RxSwift", "~> 11.0" 
