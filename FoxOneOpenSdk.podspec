@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description  = "FoxOneOpenSdk"
 
   s.homepage     = "https://github.com/fox-one/foxone-opensdk-ios"
-
+  s.author             = { "foxone" => "info@fox.one" }
 
   s.license      = "Apache License 2.0"
 
