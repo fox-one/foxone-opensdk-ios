@@ -76,6 +76,9 @@ Pod::Spec.new do |s|
   s.subspec 'F1Exchange' do |exchange|
     exchange.platform     = :ios, "10.0"
     exchange.vendored_frameworks = 'F1Exchange/F1Exchange.framework'
+    exchange.dependency "FoxOneOpenSdk/F1Utility", 
+    exchange.dependency "FoxOneOpenSdk/F1Components", 
+    exchange.dependency "FoxOneOpenSdk/F1Passport",
     exchange.dependency "HandyJSON", "~> 4.2.0" 
     exchange.dependency "RxSwift", "~> 4.0" 
     exchange.dependency "RxCocoa", "~> 4.0" 
