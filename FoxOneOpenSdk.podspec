@@ -45,7 +45,6 @@ Pod::Spec.new do |s|
     components.dependency "Kingfisher", "~> 4.0" 
     components.dependency "NSObject+Rx"
     components.dependency "SwiftyAttributes"
-    components.dependency "Utils-ios"
   end
 
   s.subspec 'F1Passport' do |passport|
@@ -64,8 +63,6 @@ Pod::Spec.new do |s|
     passport.dependency "Kingfisher", "~> 4.0" 
     passport.dependency "SwiftyAttributes"
     passport.dependency "NSObject+Rx"
-    passport.dependency "Utils-ios"
-    passport.dependency "Components-ios" 
   end
 
   s.subspec 'F1Exchange' do |exchange|
@@ -84,8 +81,6 @@ Pod::Spec.new do |s|
     exchange.dependency "Kingfisher", "~> 4.0" 
     exchange.dependency "SwiftyAttributes"
     exchange.dependency "NSObject+Rx"
-    exchange.dependency "Utils-ios"
-    exchange.dependency "Components-ios"
     exchange.dependency "RxOptional"
     exchange.dependency "RxSwiftExt"
     exchange.dependency "RxGesture"
