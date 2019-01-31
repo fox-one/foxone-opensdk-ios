@@ -167,6 +167,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import CoreImage;
 @import Foundation;
+@import MBProgressHUD;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -191,15 +192,22 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC12F1Components13FormTextField")
 @interface FormTextField : UITextField
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 @end
 
 
 SWIFT_CLASS("_TtC12F1Components16AccountTextField")
 @interface AccountTextField : FormTextField
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
+@end
+
+
+SWIFT_CLASS("_TtC12F1Components20BasicPlaceholderView")
+@interface BasicPlaceholderView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
@@ -210,7 +218,6 @@ SWIFT_CLASS("_TtC12F1Components16AccountTextField")
 SWIFT_CLASS("_TtC12F1Components16CaptchaTextField")
 @interface CaptchaTextField : FormTextField
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 @end
 
@@ -218,7 +225,6 @@ SWIFT_CLASS("_TtC12F1Components16CaptchaTextField")
 SWIFT_CLASS("_TtC12F1Components18CountDownTextField")
 @interface CountDownTextField : FormTextField
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 @end
 
@@ -254,6 +260,18 @@ SWIFT_PROTOCOL("_TtP12F1Components18DropButtonDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC12F1Components9EmptyView")
+@interface EmptyView : BasicPlaceholderView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12F1Components9ErrorView")
+@interface ErrorView : BasicPlaceholderView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class UIImagePickerController;
 
 SWIFT_CLASS("_TtC12F1Components24FoxImagePickerController")
@@ -268,6 +286,12 @@ SWIFT_CLASS("_TtC12F1Components23FoxNavigationTitleLabel")
 @interface FoxNavigationTitleLabel : UILabel
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC12F1Components17FoxOneProgressHUD")
+@interface FoxOneProgressHUD : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -325,7 +349,12 @@ SWIFT_CLASS("_TtC12F1Components15HighlightButton")
 SWIFT_CLASS("_TtC12F1Components18LeftTitleTextField")
 @interface LeftTitleTextField : FormTextField
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC12F1Components11LoadingView")
+@interface LoadingView : BasicPlaceholderView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -334,6 +363,8 @@ SWIFT_CLASS("_TtC12F1Components10LongButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
+
 
 @class NSBundle;
 
@@ -416,6 +447,12 @@ SWIFT_CLASS("_TtC12F1Components19StackViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+
 
 
 

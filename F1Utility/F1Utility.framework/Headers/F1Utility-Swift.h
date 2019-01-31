@@ -165,8 +165,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import CoreGraphics;
 @import Foundation;
-@import MBProgressHUD;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -185,40 +183,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9F1Utility20BasicPlaceholderView")
-@interface BasicPlaceholderView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_CLASS("_TtC9F1Utility9EmptyView")
-@interface EmptyView : BasicPlaceholderView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9F1Utility9ErrorView")
-@interface ErrorView : BasicPlaceholderView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9F1Utility17FoxOneProgressHUD")
-@interface FoxOneProgressHUD : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9F1Utility11LoadingView")
-@interface LoadingView : BasicPlaceholderView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
 
 
 
@@ -228,12 +192,6 @@ SWIFT_CLASS("_TtC9F1Utility11LoadingView")
 @interface UIButton (SWIFT_EXTENSION(F1Utility))
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
-
-
-
-
 
 
 

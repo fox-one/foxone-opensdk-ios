@@ -277,6 +277,7 @@ SWIFT_CLASS("_TtC10F1Exchange23QuotationViewController")
 SWIFT_CLASS("_TtC10F1Exchange16RefreshTableView")
 @interface RefreshTableView : UITableView
 - (nonnull instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
