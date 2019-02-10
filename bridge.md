@@ -2,10 +2,11 @@
 
 因为Fox.ONE OpenAPI 和 GateWayAPI 需要对请求进行签名，所以HTT客户端需要提供给H5页面（Web容器）一个JSBridge 用于H5页面访问后台API对请求进行签名。
 
-具体操作如下:
-1.H5页面调用 HTT 的本地客户端提供的 JSBridge
-2.HTT客户端调用 F1Passport SDK (iOS) CryptoTool 工具，传入参数 生成JWT Token
-3.HTT客户端使用 JSBridge 调用Web容器，传递参数，H5页面使用HTT传入的URI和Token 发送请求
+具体操作如下:    
+
+1. H5页面调用 HTT 的本地客户端提供的 JSBridge    
+2. HTT客户端调用 F1Passport SDK (iOS) CryptoTool 工具，传入参数 生成 JWT Token    
+3. HTT客户端使用 JSBridge 调用Web容器，传递参数，H5页面使用HTT传入添加Query 的 URI 和 Token 发送请求    
 
 ## JSBridge 的API 定义
 
