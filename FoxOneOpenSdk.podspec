@@ -19,8 +19,6 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.requires_arc = true
 
-  s.default_subspec = 'Core'
-
   s.subspec 'F1Utility' do |utility|
     utility.platform     = :ios, "9.0"
     utility.vendored_frameworks = 'F1Utility/F1Utility.framework'
