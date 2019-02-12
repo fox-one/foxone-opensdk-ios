@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     components.dependency "RxSwift", "~> 4.0" 
     components.dependency "RxCocoa", "~> 4.0" 
     components.dependency "RxDataSources", "~> 3.0"
-    components.dependency "Kingfisher", "~> 4.0" 
+    components.dependency "Kingfisher", "~> 5.0" 
     components.dependency "NSObject+Rx"
     components.dependency "SwiftyAttributes"
   end
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
     passport.dependency "CryptoSwift"
     passport.dependency "SnapKit", "~> 4.0" 
     passport.dependency "RxDataSources", "~> 3.0"
-    passport.dependency "Kingfisher", "~> 4.0" 
+    passport.dependency "Kingfisher", "~> 5.0" 
     passport.dependency "SwiftyAttributes"
     passport.dependency "NSObject+Rx"
   end
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
     exchange.dependency "CryptoSwift"
     exchange.dependency "SnapKit", "~> 4.0" 
     exchange.dependency "RxDataSources", "~> 3.0"
-    exchange.dependency "Kingfisher", "~> 4.0" 
+    exchange.dependency "Kingfisher", "~> 5.0" 
     exchange.dependency "SwiftyAttributes"
     exchange.dependency "NSObject+Rx"
     exchange.dependency "RxOptional"
