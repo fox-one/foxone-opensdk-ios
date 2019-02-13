@@ -80,12 +80,13 @@ public class AccountServices {
 
     public static let shared: F1Passport.AccountServices
 
-    /// 手机密码登录
+     /// 手机密码登录
     ///
     /// - Parameters:
+    ///   -phoneCode: 国家码
     ///   - phone: 手机号
     ///   - password: 密码
-    public func loginBy(phone: String, password: String, complete: @escaping UserRequestComplete)
+    public func loginBy(phoneCode: String, phone: String, password: String, complete: @escaping UserRequestComplete)
 
     /// 手机验证码登录
     ///
@@ -117,7 +118,7 @@ public class AccountServices {
     ///   - complete: 回调
     public func getPhoneSMSCode(phone: String, captcha: String, captchaId: String, phoneCode: String, complete: @escaping (String?, Error?) -> Void)
 
-    /// 手机号找回密码
+    /// 找回密码
     ///
     /// - Parameters:
     ///   - token: token
@@ -145,7 +146,7 @@ public class AccountServices {
     ///   - complete: 回调
     public func getEmailCode(email: String, captcha: String, captchaId: String, complete: @escaping (String?, Error?) -> Void)
 
-    /// 手机注册
+    /// 注册
     ///
     /// - Parameters:
     ///   - name: 名字
