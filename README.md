@@ -51,7 +51,6 @@ AccountServices.shared.loginBy(phone: xxx, password: xxxx) { (success, user, err
 platform :ios, '10.0'
 
 use_frameworks!
-pod  'Charts', :git => 'https://github.com/Michael-Du/Charts.git', :branch => 'fix-combinedChartView-candledata_bug'
 pod 'FoxOneOpenSdk/F1Utility', :git => 'https://github.com/fox-one/foxone-opensdk-ios.git', :branch => 'master'
 pod 'FoxOneOpenSdk/F1Components', :git => 'https://github.com/fox-one/foxone-opensdk-ios.git', :branch => 'master'
 pod 'FoxOneOpenSdk/F1Passport', :git => 'https://github.com/fox-one/foxone-opensdk-ios.git', :branch => 'master'
