@@ -231,6 +231,12 @@ public class AccountServices {
     ///   - symbols: symbol数组
     ///   - complete: 回调
     public func unFavSymbols(symbols: [String], complete: @escaping (Bool, Error?) -> Void)
+    
+    /// 获取验证码图片url
+    ///
+    /// - Parameters:
+    ///   - id: id
+    public func getCaptchaImage(id: String) -> String
 }
 ```
 
