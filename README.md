@@ -1,5 +1,5 @@
 # foxone-opensdk-ios
-2019 Fox.ONE 全新体系下的开放系统 JS 端，含登录，注册，Sign 签发
+2019 Fox.ONE 全新体系下的开放系统含登录，注册，Sign 签发
 # F1Passport
 ## 通过CocoaPods集成到你的应用
 确保你安装了最新的 CocoaPods :
@@ -28,6 +28,12 @@ AccountManager.shared.setEnviroment(enviroment: .dev)
 2.调用带UI的passport服务
 ```
 import F1AccountSDK
+
+/// 设置主题(未设置则使用默认的白色主题)
+///
+/// - Parameters:
+///   - configs: 主题配置
+F1PThemeManager.shared.setTheme(configs: themeConfigs)
 
 let viewController = LoginViewController()
 ```
@@ -79,6 +85,14 @@ import F1Exchange
 2.调用带UI的F1Exchange服务
 ```
 import F1AccountSDK
+
+/// 设置主题(未设置则使用默认的白色主题)
+///
+/// - Parameters:
+///   - configs: 主题配置
+///   - placeholderImage: 占位图
+F1EThemeManager.shared.setTheme(configs: themeConfigs, placeholderImage: image)
+        
 //关注交易对界面
 let favoriteViewController() = FavoriteViewController()
 ```
