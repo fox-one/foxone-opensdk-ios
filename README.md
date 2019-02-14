@@ -44,6 +44,9 @@ let viewController = LoginViewController()
 //手机号登录
 AccountServices.shared.loginBy(phone: xxx, password: xxxx) { (success, user, error) in
 }
+
+//退出登录
+AccountManager.shared.logout()
 ```
 
 [更多API](https://github.com/fox-one/foxone-opensdk-ios/blob/master/F1PassportAPI.md)
@@ -95,5 +98,19 @@ F1EThemeManager.shared.setTheme(configs: themeConfigs, placeholderImage: image)
         
 //关注交易对界面
 let favoriteViewController() = FavoriteViewController()
+
+//实现代理
+F1exSDKManager.shared.delegate = self
+
+extension AppDelegate: F1exDelegate {
+    
+    func loginAction() {
+        //调取登录页面
+    }
+    
+    func handleError(statusCode: Int, code: Int, message: String) {
+        //错误处理
+    }
+}
 ```
 [更多API](https://github.com/fox-one/foxone-opensdk-ios/blob/master/F1ExchangeAPI.md)
