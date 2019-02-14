@@ -73,7 +73,7 @@ import F1Exchange
     F1exSDKManager.shared.regisrer(merchantId: xxxxxxx)
     
     //设置网络环境
-     EnvironmentConfigManager.shared.enviroment = .dev
+     F1exSDKManager.shared.setEnviroment(enviroment: .dev)
     
     //设置K线图颜色
     F1exSDKManager.shared.setChartViewTheme(increasingColor: UIColor, decreasingColor: UIColor)
