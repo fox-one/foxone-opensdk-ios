@@ -2,8 +2,8 @@
 //  F1Components.h
 //  F1Components
 //
-//  Created by moubuns on 2019/1/23.
-//  Copyright © 2019 FoxOne. All rights reserved.
+//  Created by  on 2019/1/23.
+
 //
 
 #import <UIKit/UIKit.h>
