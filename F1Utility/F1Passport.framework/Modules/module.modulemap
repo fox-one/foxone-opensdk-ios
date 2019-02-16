@@ -1,0 +1,11 @@
+framework module F1Passport {
+  umbrella header "F1Passport.h"
+
+  export *
+  module * { export * }
+}
+
+module F1Passport.Swift {
+    header "F1Passport-Swift.h"
+    requires objc
+}
