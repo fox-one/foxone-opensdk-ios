@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
     exchange.dependency "RxWebKit"
     exchange.dependency "IQKeyboardManagerSwift", '~> 6.0'
     exchange.dependency "MJRefresh", '~> 3.0'
-    exchange.dependency "Charts"
+    exchange.dependency "Charts", '3.2.2'
     exchange.dependency "DeckTransition", '~> 2.0'
     exchange.dependency "Starscream", '~> 3.0.2'
     exchange.dependency "GzipSwift"
