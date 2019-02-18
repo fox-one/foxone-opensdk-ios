@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "4vs-x1-lYG"; */
+"4vs-x1-lYG.placeholder" = "SMS Code";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "79r-43-qe6"; */
+"79r-43-qe6.placeholder" = "Phone";
+
+/* Class = "UIButton"; normalTitle = "邮箱注册"; ObjectID = "NPj-Fn-zo4"; */
+"NPj-Fn-zo4.normalTitle" = "邮箱注册";
+
+/* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "PkN-Ny-3Xa"; */
+"PkN-Ny-3Xa.placeholder" = "Verification Code";
+
+/* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "TsJ-hM-i3h"; */
+"TsJ-hM-i3h.normalTitle" = "Registe";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ihE-sV-2Wm"; */
+"ihE-sV-2Wm.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "mVm-23-tfb"; */
+"mVm-23-tfb.placeholder" = "Name";
