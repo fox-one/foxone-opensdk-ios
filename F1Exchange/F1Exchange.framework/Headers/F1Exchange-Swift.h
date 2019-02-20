@@ -301,6 +301,27 @@ SWIFT_CLASS("_TtC10F1Exchange13TradeServices")
 
 
 
+SWIFT_CLASS("_TtC10F1Exchange28WalletTransferViewController")
+@interface WalletTransferViewController : StackViewController <UINavigationControllerDelegate>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UITextField;
+@class UITextView;
+@class UITouch;
+@class UIEvent;
+
+@interface WalletTransferViewController (SWIFT_EXTENSION(F1Exchange)) <UITextFieldDelegate, UITextViewDelegate>
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange SWIFT_WARN_UNUSED_RESULT;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+@end
+
+
 SWIFT_CLASS("_TtC10F1Exchange20WalletViewController")
 @interface WalletViewController : UIViewController <UINavigationControllerDelegate>
 - (void)viewDidLoad;
@@ -311,11 +332,11 @@ SWIFT_CLASS("_TtC10F1Exchange20WalletViewController")
 @end
 
 
-
-
 @interface WalletViewController (SWIFT_EXTENSION(F1Exchange)) <UITableViewDelegate>
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 @class UICollectionView;
 @class UICollectionViewLayout;
@@ -336,10 +357,6 @@ SWIFT_CLASS("_TtC10F1Exchange22WithdrawViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UITextField;
-@class UITextView;
-@class UITouch;
-@class UIEvent;
 
 @interface WithdrawViewController (SWIFT_EXTENSION(F1Exchange)) <UITextFieldDelegate, UITextViewDelegate>
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
