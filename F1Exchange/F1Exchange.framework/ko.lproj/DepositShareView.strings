@@ -1,9 +1,9 @@
+/* Class = "UILabel"; text = "Share"; ObjectID = "dXD-4D-HpJ"; */
+"dXD-4D-HpJ.text" = "공유하기";
 
 /* Class = "UILabel"; text = "Save"; ObjectID = "NfS-wb-wuS"; */
-"NfS-wb-wuS.text" = "Save";
+"NfS-wb-wuS.text" = "저장";
 
 /* Class = "UILabel"; text = "Copy"; ObjectID = "Wks-1v-X07"; */
-"Wks-1v-X07.text" = "Copy";
+"Wks-1v-X07.text" = "복사";
 
-/* Class = "UILabel"; text = "Share"; ObjectID = "dXD-4D-HpJ"; */
-"dXD-4D-HpJ.text" = "Share";

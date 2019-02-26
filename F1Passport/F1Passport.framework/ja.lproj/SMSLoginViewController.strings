@@ -1,12 +1,12 @@
-
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "8DH-dL-nbk"; */
-"8DH-dL-nbk.placeholder" = "Phone";
-
-/* Class = "UITextField"; placeholder = "SMS code"; ObjectID = "Blf-9e-hPY"; */
-"Blf-9e-hPY.placeholder" = "SMS code";
+"8DH-dL-nbk.placeholder" = "携帯電話番号";
 
 /* Class = "UIButton"; normalTitle = "Login"; ObjectID = "b32-25-w9J"; */
-"b32-25-w9J.normalTitle" = "Login";
+"b32-25-w9J.normalTitle" = "ログイン";
+
+/* Class = "UITextField"; placeholder = "SMS code"; ObjectID = "Blf-9e-hPY"; */
+"Blf-9e-hPY.placeholder" = "SMS인증 코드";
 
 /* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "pXJ-en-yIF"; */
-"pXJ-en-yIF.placeholder" = "Verification Code";
+"pXJ-en-yIF.placeholder" = "SMS確認コード";
+

@@ -1,7 +1,3 @@
-
-/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "21W-Hm-zbv"; */
-"21W-Hm-zbv.placeholder" = "邮箱";
-
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "5Hx-Nb-VrN"; */
 "5Hx-Nb-VrN.placeholder" = "密码";
 
@@ -14,11 +10,9 @@
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "KQP-FO-LDm"; */
 "KQP-FO-LDm.placeholder" = "邮箱";
 
-/* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "MUj-Bi-G1g"; */
-"MUj-Bi-G1g.placeholder" = "图片验证码";
+/* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "pjJ-Nd-poV"; */
+"pjJ-Nd-poV.normalTitle" = "注册";
 
 /* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "WUK-aM-EN7"; */
 "WUK-aM-EN7.placeholder" = "邮箱验证码";
 
-/* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "pjJ-Nd-poV"; */
-"pjJ-Nd-poV.normalTitle" = "注册";

@@ -1,12 +1,11 @@
-
 /* Class = "UIButton"; normalTitle = "注册"; ObjectID = "392-QE-K0E"; */
 "392-QE-K0E.normalTitle" = "注册";
 
-/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "Ebh-Pc-RRf"; */
-"Ebh-Pc-RRf.normalTitle" = "忘记密码";
-
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "azR-l3-Jwc"; */
 "azR-l3-Jwc.placeholder" = "密码";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "Ebh-Pc-RRf"; */
+"Ebh-Pc-RRf.normalTitle" = "忘记密码";
 
 /* Class = "UITextField"; placeholder = "Phone/Email"; ObjectID = "eII-JT-WI2"; */
 "eII-JT-WI2.placeholder" = "手机号/邮箱";
@@ -16,3 +15,4 @@
 
 /* Class = "UIButton"; normalTitle = "手机短信登录"; ObjectID = "yvS-As-NQA"; */
 "yvS-As-NQA.normalTitle" = "手机短信登录";
+

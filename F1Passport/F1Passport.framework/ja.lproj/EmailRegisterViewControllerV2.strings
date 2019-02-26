@@ -1,18 +1,18 @@
-
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "5Hx-Nb-VrN"; */
-"5Hx-Nb-VrN.placeholder" = "Password";
+"5Hx-Nb-VrN.placeholder" = "パスワード";
 
 /* Class = "UITextField"; placeholder = "Name"; ObjectID = "BDu-jC-WHN"; */
-"BDu-jC-WHN.placeholder" = "Name";
+"BDu-jC-WHN.placeholder" = "本名";
 
 /* Class = "UIButton"; normalTitle = "邮箱注册"; ObjectID = "GOX-mY-EQl"; */
-"GOX-mY-EQl.normalTitle" = "邮箱注册";
+"GOX-mY-EQl.normalTitle" = "メールで登録";
 
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "KQP-FO-LDm"; */
-"KQP-FO-LDm.placeholder" = "Phone";
-
-/* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "WUK-aM-EN7"; */
-"WUK-aM-EN7.placeholder" = "SMS Code";
+"KQP-FO-LDm.placeholder" = "携帯電話番号";
 
 /* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "pjJ-Nd-poV"; */
-"pjJ-Nd-poV.normalTitle" = "Registe";
+"pjJ-Nd-poV.normalTitle" = "登録";
+
+/* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "WUK-aM-EN7"; */
+"WUK-aM-EN7.placeholder" = "SMS인증 코드";
+

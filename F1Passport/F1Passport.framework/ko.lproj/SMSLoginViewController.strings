@@ -1,12 +1,12 @@
-
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "8DH-dL-nbk"; */
-"8DH-dL-nbk.placeholder" = "Phone";
-
-/* Class = "UITextField"; placeholder = "SMS code"; ObjectID = "Blf-9e-hPY"; */
-"Blf-9e-hPY.placeholder" = "SMS code";
+"8DH-dL-nbk.placeholder" = "휴대 전화 번호";
 
 /* Class = "UIButton"; normalTitle = "Login"; ObjectID = "b32-25-w9J"; */
-"b32-25-w9J.normalTitle" = "Login";
+"b32-25-w9J.normalTitle" = "등록";
+
+/* Class = "UITextField"; placeholder = "SMS code"; ObjectID = "Blf-9e-hPY"; */
+"Blf-9e-hPY.placeholder" = "SMS인증 코드";
 
 /* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "pXJ-en-yIF"; */
-"pXJ-en-yIF.placeholder" = "Verification Code";
+"pXJ-en-yIF.placeholder" = "확인 코드를 시작하십시오";
+
