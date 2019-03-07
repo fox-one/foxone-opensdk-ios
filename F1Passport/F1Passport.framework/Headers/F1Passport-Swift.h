@@ -247,6 +247,23 @@ SWIFT_CLASS("_TtC10F1Passport19LoginViewController")
 @end
 
 
+SWIFT_CLASS("_TtC10F1Passport21TfaInfoViewController")
+@interface TfaInfoViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+@end
+
+
+SWIFT_CLASS("_TtC10F1Passport22TfaInputViewController")
+@interface TfaInputViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
 
 
 
