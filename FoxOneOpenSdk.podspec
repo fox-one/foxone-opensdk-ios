@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
     exchange.dependency "GzipSwift"
     exchange.dependency "Static"
     exchange.dependency "URLNavigator", '~> 2.0'
+    exchange.dependency "Device", '~> 3.1.2'
   end
 
 end
