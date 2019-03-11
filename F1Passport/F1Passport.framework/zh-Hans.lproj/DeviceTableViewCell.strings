@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "设备IP:"; ObjectID = "1vl-TQ-aD8"; */
+"1vl-TQ-aD8.text" = "设备IP:";
+
+/* Class = "UILabel"; text = "123213213"; ObjectID = "6M9-nN-hW1"; */
+"6M9-nN-hW1.text" = "123213213";
+
+/* Class = "UILabel"; text = "设备ID:"; ObjectID = "AZF-MN-CrL"; */
+"AZF-MN-CrL.text" = "设备ID:";
+
+/* Class = "UILabel"; text = "上次登录时间："; ObjectID = "Awo-Qm-b1L"; */
+"Awo-Qm-b1L.text" = "上次登录时间：";
+
+/* Class = "UILabel"; text = "iPhone"; ObjectID = "BPy-D2-Y8a"; */
+"BPy-D2-Y8a.text" = "iPhone";
+
+/* Class = "UILabel"; text = "Current"; ObjectID = "DTX-YW-c8c"; */
+"DTX-YW-c8c.text" = "当前设备";
+
+/* Class = "UILabel"; text = "192.168.3.4"; ObjectID = "U2c-Wk-kp9"; */
+"U2c-Wk-kp9.text" = "192.168.3.4";
+
+/* Class = "UILabel"; text = " "; ObjectID = "XsD-09-lMM"; */
+"XsD-09-lMM.text" = " ";
