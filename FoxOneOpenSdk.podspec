@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
     passport.dependency "Kingfisher", "~> 5.0" 
     passport.dependency "SwiftyAttributes"
     passport.dependency "NSObject+Rx"
-    exchange.dependency "Static"
+    passport.dependency "Static"
   end
 
   s.subspec 'F1Exchange' do |exchange|
