@@ -63,6 +63,7 @@ Pod::Spec.new do |s|
     passport.dependency "SwiftyAttributes"
     passport.dependency "NSObject+Rx"
     passport.dependency "Static"
+    passport.dependency "Device", '~> 3.1.2'
   end
 
   s.subspec 'F1Exchange' do |exchange|
