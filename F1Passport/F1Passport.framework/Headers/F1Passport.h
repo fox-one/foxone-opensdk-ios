@@ -1,10 +1,3 @@
-//
-//  F1Passport.h
-//  F1Passport
-//
-//  Created by  on 2019/1/23.
-
-//
 
 #import <UIKit/UIKit.h>
 

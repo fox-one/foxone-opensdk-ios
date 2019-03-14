@@ -256,6 +256,15 @@ SWIFT_CLASS("_TtC10F1Exchange22MyOrdersViewController")
 @end
 
 
+SWIFT_CLASS("_TtC10F1Exchange17QuotationListCell")
+@interface QuotationListCell : CustomeLineTableViewCell
+- (void)awakeFromNib;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10F1Exchange23QuotationViewController")
 @interface QuotationViewController : UIViewController
 - (void)viewDidLoad;
@@ -287,8 +296,6 @@ SWIFT_CLASS("_TtC10F1Exchange13TradeServices")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
-
-
 
 
 

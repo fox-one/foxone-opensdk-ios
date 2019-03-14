@@ -11,7 +11,7 @@
 "KQP-FO-LDm.placeholder" = "邮箱";
 
 /* Class = "UIButton"; normalTitle = "Registe"; ObjectID = "pjJ-Nd-poV"; */
-"pjJ-Nd-poV.normalTitle" = "注册";
+"pjJ-Nd-poV.normalTitle" = "立即注册";
 
 /* Class = "UITextField"; placeholder = "SMS Code"; ObjectID = "WUK-aM-EN7"; */
 "WUK-aM-EN7.placeholder" = "邮箱验证码";

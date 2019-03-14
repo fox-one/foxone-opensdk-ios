@@ -1,11 +1,3 @@
-//
-//  F1Utility.h
-//  F1Utility
-//
-//  Created by  on 2019/1/23.
-
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for F1Utility.
