@@ -262,26 +262,6 @@ SWIFT_CLASS("_TtC10F1Exchange22MyOrdersViewController")
 @end
 
 
-SWIFT_CLASS("_TtC10F1Exchange16Quotation24HView")
-@interface Quotation24HView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface Quotation24HView (SWIFT_EXTENSION(F1Exchange)) <UITableViewDelegate>
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC10F1Exchange29QuotationDetailViewController")
-@interface QuotationDetailViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
 SWIFT_CLASS("_TtC10F1Exchange17QuotationListCell")
 @interface QuotationListCell : CustomeLineTableViewCell
 - (void)awakeFromNib;
@@ -307,13 +287,6 @@ SWIFT_CLASS("_TtC10F1Exchange23QuotationViewController")
 @end
 
 
-
-
-SWIFT_CLASS("_TtC10F1Exchange19QutotationViewModel")
-@interface QutotationViewModel : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
 
 
 SWIFT_CLASS("_TtC10F1Exchange16RefreshTableView")

@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import CoreGraphics;
 @import Foundation;
+@import ObjectiveC;
 @import Static;
 @import UIKit;
 #endif
@@ -248,13 +249,13 @@ SWIFT_CLASS("_TtC10F1Passport17KYCViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
 @class UITextField;
 
 @interface KYCViewController (SWIFT_EXTENSION(F1Passport)) <UITextFieldDelegate>
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 @end
-
-
 
 
 @interface KYCViewController (SWIFT_EXTENSION(F1Passport)) <UITableViewDataSource, UITableViewDelegate>
@@ -302,6 +303,21 @@ SWIFT_CLASS("_TtC10F1Passport22UserInfoViewController")
 @end
 
 
+
+
+SWIFT_CLASS("_TtC10F1Passport28VerifyUserAuthViewController")
+@interface VerifyUserAuthViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+@end
+
+
+SWIFT_CLASS("_TtC10F1Passport23VerifyUserAuthViewModel")
+@interface VerifyUserAuthViewModel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
