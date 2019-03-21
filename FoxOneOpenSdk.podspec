@@ -23,14 +23,8 @@ Pod::Spec.new do |s|
     utility.platform     = :ios, "9.0"
     utility.vendored_frameworks = 'F1Utility/F1Utility.framework'
     utility.dependency  "HandyJSON", "~> 4.2.0" 
-    utility.dependency  "RxSwift", "~> 4.0" 
-    utility.dependency  "RxCocoa", "~> 4.0" 
-    utility.dependency  "MBProgressHUD", "~> 1.0" 
     utility.dependency  "Moya/RxSwift", "~> 11.0" 
-    utility.dependency  "SwiftyJSON", "~> 4.0" 
-    utility.dependency  "CryptoSwift"
     utility.dependency  "Starscream", "~> 3.0.2" 
-    utility.dependency  "SnapKit", "~> 4.0" 
     utility.dependency  "GzipSwift"
   end
 
@@ -44,6 +38,8 @@ Pod::Spec.new do |s|
     components.dependency "Kingfisher", "~> 5.0" 
     components.dependency "NSObject+Rx"
     components.dependency "SwiftyAttributes"
+    components.dependency "RxWebKit"
+    components.dependency "RxOptional"
   end
 
   s.subspec 'F1Passport' do |passport|
