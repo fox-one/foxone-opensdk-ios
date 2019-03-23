@@ -355,7 +355,6 @@ SWIFT_CLASS("_TtC10F1Exchange28WalletTransferViewController")
 @class UIEvent;
 
 @interface WalletTransferViewController (SWIFT_EXTENSION(F1Exchange)) <UITextFieldDelegate, UITextViewDelegate>
-- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange SWIFT_WARN_UNUSED_RESULT;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
