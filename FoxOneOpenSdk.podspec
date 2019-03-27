@@ -93,4 +93,16 @@ Pod::Spec.new do |s|
     exchange.dependency "Device", '~> 3.1.2'
   end
 
+  s.subspec 'F1TradingView' do |tradingView|
+    tradingView.platform     = :ios, "10.0"
+    tradingView.vendored_frameworks = 'F1TradingView/F1TradingView.framework'
+    tradingView.dependency "RxSwift", "~> 4.0"
+    tradingView.dependency "RxCocoa", "~> 4.0"
+    tradingView.dependency "RxOptional"
+    tradingView.dependency "SwiftyJSON", "~> 4.0"
+    tradingView.dependency "SnapKit", "~> 4.0"
+    tradingView.dependency "NSObject+Rx"
+    tradingView.dependency "Charts"
+  end
+
 end

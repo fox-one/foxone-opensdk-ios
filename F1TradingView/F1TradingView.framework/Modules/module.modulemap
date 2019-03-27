@@ -1,0 +1,11 @@
+framework module F1TradingView {
+  umbrella header "F1TradingView.h"
+
+  export *
+  module * { export * }
+}
+
+module F1TradingView.Swift {
+    header "F1TradingView-Swift.h"
+    requires objc
+}

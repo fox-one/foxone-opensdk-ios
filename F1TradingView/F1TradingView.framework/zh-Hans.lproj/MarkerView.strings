@@ -1,0 +1,18 @@
+/* Class = "UILabel"; text = "01/10/2018 08:00:00"; ObjectID = "00T-Fp-uY9"; */
+"00T-Fp-uY9.text" = "01/10/2018 08:00:00";
+
+/* Class = "UILabel"; text = "High"; ObjectID = "31c-s0-7w9"; */
+"31c-s0-7w9.text" = "High";
+
+/* Class = "UILabel"; text = "Low  "; ObjectID = "bKF-mN-1hf"; */
+"bKF-mN-1hf.text" = "Low  ";
+
+/* Class = "UILabel"; text = "Close"; ObjectID = "bKk-GK-ZRo"; */
+"bKk-GK-ZRo.text" = "Close";
+
+/* Class = "UILabel"; text = "Volume"; ObjectID = "GT6-8Q-cHn"; */
+"GT6-8Q-cHn.text" = "Volume";
+
+/* Class = "UILabel"; text = "Open"; ObjectID = "vKQ-s4-OZM"; */
+"vKQ-s4-OZM.text" = "Open";
+
