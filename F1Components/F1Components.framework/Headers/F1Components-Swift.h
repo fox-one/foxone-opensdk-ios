@@ -400,6 +400,13 @@ SWIFT_CLASS("_TtC12F1Components22QuotationOrderBookView")
 @end
 
 
+SWIFT_CLASS("_TtC12F1Components17RefreshScrollView")
+@interface RefreshScrollView : UIScrollView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12F1Components18ScanViewController")
 @interface ScanViewController : UIViewController
 - (void)viewDidLoad;

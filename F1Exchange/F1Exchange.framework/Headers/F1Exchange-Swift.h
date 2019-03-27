@@ -275,9 +275,10 @@ SWIFT_CLASS("_TtC10F1Exchange16Quotation24HView")
 
 
 SWIFT_CLASS("_TtC10F1Exchange29QuotationDetailViewController")
-@interface QuotationDetailViewController : UIViewController
+@interface QuotationDetailViewController : UIViewController <UINavigationControllerDelegate>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -329,10 +330,6 @@ SWIFT_CLASS("_TtC10F1Exchange13TradeServices")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
-
-
-
-
 
 
 
