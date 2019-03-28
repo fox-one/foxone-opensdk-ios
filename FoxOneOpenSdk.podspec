@@ -92,9 +92,6 @@ Pod::Spec.new do |s|
     tradingView.dependency "RxCocoa"
     tradingView.dependency "Charts"
     tradingView.dependency "SwiftyJSON"
-    tradingView.dependency "F1Foundation"
-    tradingView.dependency "F1Components"
-    tradingView.dependency "F1Utility"
   end
 
   s.subspec 'F1WebKit' do |webkit|
