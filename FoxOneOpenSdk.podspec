@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.subspec 'F1Utility' do |utility|
     utility.platform     = :ios, "10.0"
     utility.vendored_frameworks = 'F1Utility/F1Utility.framework'
-    utility.dependency  "HandyJSON",
+    utility.dependency  "HandyJSON"
     utility.dependency  "Moya/RxSwift"
     utility.dependency  "Starscream"
     utility.dependency  "SwiftyJSON"
