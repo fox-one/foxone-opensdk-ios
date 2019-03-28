@@ -1,0 +1,11 @@
+framework module F1WebKit {
+  umbrella header "F1WebKit.h"
+
+  export *
+  module * { export * }
+}
+
+module F1WebKit.Swift {
+    header "F1WebKit-Swift.h"
+    requires objc
+}
